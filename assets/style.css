@@ -1,0 +1,81 @@
+HTML{
+    background-color: azure;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .citySearch {
+    display: flex;
+    flex-direction: column;
+    margin-top: -160px;
+  }
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    padding-right: 150px;
+    width: 25%;
+    margin-top: 2px;
+}
+
+header{
+    background-color: aqua;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+  }  
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.p1{
+    padding-left: 80px;
+  }
+  
+  .container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .container h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+
+  .delete-button{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
